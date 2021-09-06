@@ -1,0 +1,1 @@
+<h1>No estas autorizado para esta acción</h1>

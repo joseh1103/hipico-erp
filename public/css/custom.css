@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a,th,tr,td, thead, tbody, strong{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 300 !important; 
+}
+.tipografia{
+    color: #000000 !important;
+
+}
+
+.bold-title {
+    font-weight: 700 !important;
+    font-size: 18px;
+    vertical-align: middle !important;
+  
+    padding: 3px !important;
+    text-align: center !important;
+    
+}
+
+
+.bg-orange  {
+    background-color: #428A78!important;
+}
+
+
+
+
+.pfont {
+
+    color: #000000 !important;
+}
+
+.theader{
+    background: #cccccc !important;
+}
+
+.main-sidebar {
+background-color: #fff !important;
+}
+.card{
+
+    border: none !important;
+    
+}
+.card-padding{
+    margin-top:10px !important;
+    padding:8px !important;
+
+}
+
+.card-bg-login{
+background: #fff !important;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.center-title{
+text-align: center;
+padding: 8px !important;
+font-size: 24px !important;
+margin-top:12px !important;
+}
+
+.card-pos{
+    height: auto !important;
+    
+}
+
+.float-left{
+    float:left !important;
+}
+
+.card-body-uno{
+    padding-top:10px !important
+}
+
+
+
+.col-content-padding{
+    padding:10px !important;
+}
+
+.card-pos[data-v-2ff4136a]{
+
+    height: auto !important;
+}
+
+.table{
+    margin: 0 !important;
+    
+}
+.search-component{
+    
+    padding: 5px !important;
+}
+.fas-w {
+    color: #999 !important;  
+}
+.bg{
+    opacity: 0 !important;
+}
+
+
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+   }
+   
+   #lateral {
+    width: 50%;  /* Este será el ancho que tendrá tu columna */
+     /* Aquí pon el color del fondo que quieras para este lateral */
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+   }
+   
+   #principal {
+    width: 45%;
+    float: right;
+    
+     /* ponemos un donde para que se vea bonito */
+   }
+   /* Para limpiar los floats */
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+
+   .margin-top{
+       position: relative;
+       margin:10px 0 10px 0 !important;
+   }
+
+   .content-center {
+
+    margin: 0 auto !important;
+    margin-top:15px !important;
+   }
+
+
+   .router-link-exact-active{
+       color: #428A78 !important;
+       font-weight: 500 !important;
+       background: #E5E5E5 !important;
+
+   }
+
+   /* Override btn-primary */
+   .btn-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #428A78 !important;
+    border-color: #428A78 !important;
+    }
+
+    /* Override hover de etiquetas a*/
+    a:hover {
+        color: #428A78 !important;
+        text-decoration: none;
+        background-color: transparent;
+        }
+
+    /* Override box-shadow  Sidebar */
+    .elevation-4 {
+       /* box-shadow: 0 8px 8px rgba(256,126,20,.25),0 3px 3px rgba(0,0,0,.22)!important; */
+        }
+       /* Cambiamos el estilo del icono de cada cabecera de menu desplegable */
+
+       .icono-tit{
+        color:#ffffff !important;
+
+
+       }
+
+       .form-control{
+        border-top-right-radius: 0.85rem !important;
+        border-bottom-right-radius: 0.85rem !important;
+       }
+       .input-group-text{
+        border-top-left-radius: 0.85rem !important;
+        border-bottom-left-radius: 0.85rem !important;
+        background-color: #428A78 !important;
+        color: #dddddd;
+
+       }
+
+       .form-register input{
+          padding:4px !important;
+
+
+       }
+
+       .form-control:focus {
+        border-color: #428A78;
+        box-shadow: inset 0 1px 1px rgba(253, 126, 20, 0.075), 0 0 8px rgba(255, 47, 8, 0.6);
+      }
+
+      .input-pay:focus {
+        border-color: #428A78;
+        box-shadow: inset 0 1px 1px rgba(253, 126, 20, 0.075), 0 0 8px rgba(255, 47, 8, 0.6);
+      }
+
+      .bg-light-nobox{
+          background-color: rgba(255, 255, 255, 0.075) !important;
+          box-shadow: none !important;
+          display: flex;
+          align-items: center;
+      }
+      .no-border-radius {
+          border-radius: 0px !important;
+
+
+      } 
+
+      thead{
+          background-color: rgba(253, 126, 20, 1) !important;
+          color: #ffffff !important;
+          border: 1px solid #fff !important;
+          font-family: 'Poppins', sans-serif !important;
+          
+      }
+      thead th{
+        border: 1px solid #fff !important; 
+        font-family: 'Poppins', sans-serif !important;
+        
+        
+        
+        
+      }
+      tbody td{
+        border: 1px solid rgba(221, 221, 221, 0.25) !important; 
+        font-weight: 400 !important;
+        font-family: 'Poppins', sans-serif !important;
+       
+      }
+
+      
+      
+
+      .header-pos{
+        background-color: rgba(253, 126, 20, 1) !important
+      }
+      .color-title{
+          color:#ffffff !important;
+      }
+
+      .card-header{
+        background-color: #428A78 !important;
+        color:#ffffff !important;
+        
+        top: 50% !important;
+      }
+
+
+      .payments-table #total, #payment{
+          color: #000000 !important;
+          font-weight: 400 !important;
+          font-size: 18px !important;
+          text-align: center !important;
+          line-height: 30px !important;
+
+      }
+
+      .payments-table input[type=text]  {
+        width: 100%;
+        padding: 4px 8px;
+        margin: o auto !important
+        
+        
+      }
+
+      .payments-table #pay-now button {
+         width: 100%;
+         margin: 0 5px 0 5px !important
+      }
+      .color-icon-e{
+          color:#4EE65C !important;
+          font-size: 18px !important;
+         
+      }
+      .color-icon-t{
+        color:#FE3730 !important;
+        font-size: 18px !important;
+        
+    }
+    .color-icon-d{
+        color:#0d76ff !important;
+        font-size: 18px !important;
+        
+    }
+    .color-icon-p{
+      color:#EB7D25 !important;
+      font-size: 18px !important;
+      
+  }
+    .icon-acciones{
+        background-color: #ffffff !important;
+        border: none !important;
+    }
+
+    .select-clientes{
+
+        margin:10px !important;
+       
+    }
+
+    .white{
+        color: #fff !important;
+    }
+    .orange{
+        color: rgba(253, 126, 20, 1) !important;
+    }
+
+/* Estilos Columnas Orden de Compra */
+
+.column {
+    float: left;
+    width: 50%;
+    height: auto;
+    }
+.title-header{
+    background-color: rgba(253, 126, 20, 1) !important;
+    width: 100% !important;
+    padding: 8px !important;
+    text-align: center !important;
+    margin:10px 0 10px 0 !important;
+    border-top-left-radius: 8px !important;
+  
+    border-top-right-radius: 8px !important;
+}
+.title-h4{
+    font-size:20px !important;
+    padding-top: 4px !important;
+}
+
+
+/* Columnas Punto de Venta */
+
+.columnsContainer, footer, header { position: relative; margin: .5em; }
+
+.leftColumn, .rightColumn, footer, header {padding: 1.25em; }
+
+.leftColumn { margin-bottom: .5em;width: 40% !important }
+.rightColumn { float: left; width: 60% !important;}
+
+.margin{ margin-bottom:1.5em !important}
+
+/* Media queries Dashboard Columns */
+@media screen and (min-width: 47.5em ) {
+    .leftColumn { margin-right: 19.5em; }
+  
+      .rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
+  }
+
+.pagado {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.column-boton {
+    float: left;
+    width: 24%;
+    margin: 1px !important;
+    height: auto !important;
+  }
+  
+  .btn-order{
+font-size: 16px !important;
+
+
+  }
+  .row-editar{
+      width: 100% !important;
+  }
+  .width-boton{
+      width: 100% !important;
+  }
+
+  .info a{
+      font-weight: 600 !important;
+      color: #000000 !important;
+  }
+
+  /* Columnas Detalle Orden de Servicio */
+
+  .columnsContainerDOS, footer, header { position: relative; margin: .5em; }
+
+.leftColumnDOS, .rightColumnDOS, footer, header {padding: 1.25em; }
+
+.leftColumnDOS { margin-bottom: .5em;width: 50% !important }
+.rightColumnDOS { float: left; width: 50% !important;}
+
+.margin{ margin-bottom:1.5em !important}
+
+/* Media queries Dashboard Columns */
+@media screen and (min-width: 47.5em ) {
+    .leftColumnDOS { margin-right: 19.5em; }
+  
+      .rightColumnDOS { position: absolute; top: 0; right: 0; width: 18.75em; }   
+  }
+
+
+
+  /* Columnas Orden de Servicio */
+
+.columnsContainerOS{
+    margin:15px !important;
+}
+
+  .columnsContainerOrderServices {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+
+
+
+
+  .list-group-flush > .list-group-item {
+    border-width: 0 0 1px;
+    height: 45px;
+}
+
+.my-row, tr {
+  line-height: 14px;
+}
+
+
+#tab-button {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#tab-button li {
+  display: table-cell;
+  width: 20%;
+}
+#tab-button li a {
+  display: block;
+  padding: .5em;
+  background: #eee;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+}
+#tab-button li:not(:first-child) a {
+  border-left: none;
+}
+#tab-button li a:hover,
+#tab-button .is-active a {
+  border-bottom-color: transparent;
+  background: #5CBDAA !important;
+  color: #FFFFFF !important;
+}
+.tab-contents {
+  padding: .5em 2em 1em;
+  border: 1px solid #ddd;
+}
+
+
+.tab-button-outer {
+  display: none;
+}
+.tab-contents {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .tab-button-outer {
+    position: relative;
+    z-index: 2;
+    display: block;
+  }
+  .tab-select-outer {
+    display: none;
+  }
+  .tab-contents {
+    position: relative;
+    top: -1px;
+    margin-top: 0;
+  }
+}
+.btn-save {
+  border-radius: 2px !important;
+  font-weight: bold;
+}
+
+thead {
+    background-color:#6C757D !important;
+    color: #F8F9FA !important;
+    border: 1px solid #ddd !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+th {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.list-group-item {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    color: #494E53;
+}
+
+.bg-orange.btn.active, .bg-orange.btn:active, .bg-orange.btn:not(:disabled):not(.disabled).active, .bg-orange.btn:not(:disabled):not(.disabled):active {
+  background-color: #5CBDAA!important;
+  border-color: #5CBDAA;
+  color: #fff;
+}
+
+.bg-orange.btn:hover {
+  border-color: #428A78;
+  color: #121a24;
+}
+
+.style-search-jornada .vs__search::placeholder,
+.style-search-jornada .vs__dropdown-toggle,
+.style-search-jornada .vs__dropdown-menu {
+  background: #FFFFFF;
+  color: #EB7D25;
+}
+
+.style-search-jornada .vs__clear,
+.style-search-jornada .vs__open-indicator {
+  fill: #EB7D25;
+}
+.style-search-jornada {
+  width: 100% !important;
+  min-width: 450px;
+}
+
+.vs__search, .vs__search:focus {
+  line-height: 2.0 !important;
+}
+
+.style-search-carreras {
+  width: 100% !important;
+  min-width: 390px;
+}
+
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #5CBDAA !important;
+  border-color: #5CBDAA !important;
+}
+
+.col-md-8 {
+    position: relative;
+    width: 100%;
+    padding-left: 15px !important;
+    padding-right: 0px !important;
+}
+.col-md-4 {
+    padding-left: 5px !important;
+}
+
+#d1_ifr {
+  height: 500px !important;
+}
+
+
+
+
+.botonF1{
+  width:60px;
+  height:60px;
+  border-radius:100%;
+  background:#428A78;
+  right:0;
+  bottom:0;
+  position:absolute;
+  margin-right:16px;
+  margin-bottom:16px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:36px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;  
+}
+span{
+  transition:.5s;  
+}
+.botonF1:hover span{
+  transform:rotate(360deg);
+}
+.botonF1:active{
+  transform:scale(1.1);
+}
